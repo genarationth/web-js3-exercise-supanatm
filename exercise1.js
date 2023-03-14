@@ -1,5 +1,5 @@
 const payCal = function(pay) {
-    return pay <= 0 ? "Enter positive number" : (pay + 3) + (pay * 0.01);
+    return pay <= 0 ? "Try again" : (pay + 3) + (pay * 0.01);
 }
 
 console.log(payCal(8));
